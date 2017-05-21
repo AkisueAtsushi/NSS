@@ -1,0 +1,134 @@
+#wrapper {
+	margin: 0 auto;
+	width: 800px;
+	height: 600px;
+}
+
+#sidebar {
+	float: left;
+	width: 220px;
+	height: 360px;
+
+	padding-top: 100px;
+}
+
+#title {
+	font-family: "Times New Roman",sans-serif;
+	font-size: 21px;
+
+	text-align: center;
+
+	margin-bottom: 35px;
+}
+
+.point {
+	display: block;
+	margin: 0 auto;
+	width: 70px;
+	height: 58px;
+}
+
+#description {
+	font-family: "HGS明朝E","ＭＳ Ｐ明朝",serif;
+	font-size: 16px;
+	text-align: left;
+	line-height: 33px;
+}
+
+#paragraph1 {
+	display: block;
+	margin: 0 10px;
+	margin-bottom: 25px !important;
+}
+
+#picture {
+	float: left;
+	width: 580px;
+	height: 360px;
+
+	padding-top: 100px;
+}
+
+.horse {
+	float: left;
+	width: 145px;
+	height: 115px;
+
+	text-align: center;
+	/*background-color: yellow;*/
+}
+
+.mini_horse {
+	float: left;
+	width: 72.5px;
+	height: 70px;
+
+	padding-top: 50px;
+
+	text-align: center;
+	/*background-color: blue;*/
+}
+
+#picture .horse img {
+	display: block;
+	margin: 0 auto;
+	vertical-align:bottom;
+	width: 100px;
+	height: 100px;
+}
+
+#picture .mini_horse img {
+	display: block;
+	margin: 0 auto;
+	vertical-align:bottom;
+	width: 55px;
+	height: 50px;
+}
+
+.horse_name {
+	font-family: Meiryo, sans-serif;
+	font-size: 11px;
+}
+
+#footer {
+	float: right;
+	width: 800px;
+	height: 140px;
+
+	text-align: center;
+}
+
+ul {
+	margin-top: 50px;
+}
+
+li {
+	display: inline-block;
+	font-family: "Times New Roman",sans-serif;
+	text-align: center;
+	font-size: 15px;
+	margin: 0 10px;
+}
+
+li img {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.navi {
+	width: 50px;
+	height: 50px;
+}
+
+/*アンカーが効かなくなる現象回避のため*/
+.h2v_page {
+	min-height: 250px !important;
+}
+
+.h2v_pinner {
+	margin-right: 28.5px;
+}
